@@ -1,8 +1,7 @@
 body{padding: 0;
     margin: 0 auto;
-    max-width: 80%;
-    border: 0px red solid; 
-    padding-left: 200px;
+    max-width: 100%;
+    border: 1px red solid; 
     background-image: url(/static/Imagens/fundo2.png);
 }
 
@@ -27,6 +26,17 @@ padding-left: 90px;}
 p{text-align: right;}
 
 .texto{float: left;}
+
+.container{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 900px;
+    border: 1px red solid;
+    display: flex;
+    justify-content: space-between;
+
+}
+
 
 
 
